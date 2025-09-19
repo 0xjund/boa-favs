@@ -22,6 +22,7 @@ def __init__():
 
 @external
 def store(favorite_number: uint256):
+    print(msg.sender)
     self.my_favorite_number = favorite_number
 
 @external
